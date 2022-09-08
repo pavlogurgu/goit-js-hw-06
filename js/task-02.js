@@ -1,3 +1,4 @@
+const listElement = document.querySelector('#ingredients');
 const ingredients = [
   'Potatoes',
   'Mushrooms',
@@ -8,7 +9,6 @@ const ingredients = [
 ];
 
 const arrayItems = [];
-const listElement = document.querySelector('#ingredients');
 for(let ingredient of ingredients){
   const li = document.createElement('li');
   li.classList.add('item');
