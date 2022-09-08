@@ -17,10 +17,3 @@ for(let ingredient of ingredients){
 }
 listElement.append(...arrayItems);
 
-// const ul = document.createElement('ul');
-// ingredients.forEach((ingredient) => {
-//   const li = document.createElement('li');
-//   li.textContent = ingredient;
-//   ul.appendChild(li);
-// })
-// document.querySelector('body').appendChild(ul);
